@@ -2768,7 +2768,7 @@ a[title="站长统计"] {
 }
 .content-header {
   margin-left: -240px;
-  padding: 104px 16px 48px 256px;
+  padding: 73px 16px 48px 256px;
   color: #fff;
   background: #3F51B5;
 }
@@ -2792,6 +2792,7 @@ a[title="站长统计"] {
   .content-header .author {
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 10px;
   }
   .content-header .subtitle {
     font-size: 14px;
