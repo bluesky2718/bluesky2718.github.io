@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-18T08:57:13.000Z</updated>
+  <updated>2016-08-18T09:42:55.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,9 +20,14 @@
     <link href="http://yoursite.com/2016/08/18/%E8%B1%86%E6%B5%86%E7%B2%89%E6%8E%89%E8%BF%9B%E4%BD%9B%E7%9A%84%E9%AA%84%E5%82%B2/"/>
     <id>http://yoursite.com/2016/08/18/豆浆粉掉进佛的骄傲/</id>
     <published>2016-08-18T07:20:00.000Z</published>
-    <updated>2016-08-18T08:57:13.000Z</updated>
+    <updated>2016-08-18T09:42:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><meta name="”viewport”" content="”width=device-width,height=device-height,initial-scale=1.0," minimum-scale="1.0," maximum-scale="1.0," user-scalable="no”"><br>1.width=device-width    //应用程序的宽度和屏幕的宽度是一样的<br>2.height=device-height  //应用程序的高度和屏幕的高是一样的<br>3.initial-scale=1.0  //应用程序启动时候的缩放尺度（1.0表示不缩放）<br>4.minimum-scale=1.0  //用户可以缩放到的最小尺度（1.0表示不缩放）<br>5.maximum-scale=1.0  //用户可以放大到的最大尺度（1.0表示不缩放）<br>6.user-scalable=no  //用户是否可以通过他的手势来缩放整个应用程序，使应用程序的尺度发生一个改变（yes/no）</p>
+]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;&lt;meta name=&quot;”viewport”&quot; content=&quot;”width=device-width,height=device-height,initial-scale=1.0,&quot; minimum-scale=&quot;1.0,&quot; maximum-scale=&quot;1.0,&quot; u
     
     </summary>
     
