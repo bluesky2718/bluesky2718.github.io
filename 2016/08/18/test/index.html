@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>&lt;mate name=”viewport”&gt;移动端设置详解 | 前端技术交流 | 技术在于折腾</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="theme-color" content="#3F51B5">
+  
+  
+  <meta name="keywords" content="移动端">
+  <meta name="description" content="1.width=device-width    //&amp;#x5E94;&amp;#x7528;&amp;#x7A0B;&amp;#x5E8F;&amp;#x7684;&amp;#x5BBD;&amp;#x5EA6;&amp;#x548C;&amp;#x5C4F;&amp;#x5E55;&amp;#x7684;&amp;#x5BBD;&amp;#x5EA6;&amp;#x662F;&amp;#x4E00;&amp;#x6837;&amp;#x7684;
+2.height=device-height  //&amp;#x5E94;&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="<mate name=”viewport”>移动端设置详解">
+<meta property="og:url" content="http://yoursite.com/2016/08/18/test/index.html">
+<meta property="og:site_name" content="前端技术交流">
+<meta property="og:description" content="1.width=device-width    //&amp;#x5E94;&amp;#x7528;&amp;#x7A0B;&amp;#x5E8F;&amp;#x7684;&amp;#x5BBD;&amp;#x5EA6;&amp;#x548C;&amp;#x5C4F;&amp;#x5E55;&amp;#x7684;&amp;#x5BBD;&amp;#x5EA6;&amp;#x662F;&amp;#x4E00;&amp;#x6837;&amp;#x7684;
+2.height=device-height  //&amp;#x5E94;&amp;">
+<meta property="og:updated_time" content="2016-08-19T02:43:17.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="<mate name=”viewport”>移动端设置详解">
+<meta name="twitter:description" content="1.width=device-width    //&amp;#x5E94;&amp;#x7528;&amp;#x7A0B;&amp;#x5E8F;&amp;#x7684;&amp;#x5BBD;&amp;#x5EA6;&amp;#x548C;&amp;#x5C4F;&amp;#x5E55;&amp;#x7684;&amp;#x5BBD;&amp;#x5EA6;&amp;#x662F;&amp;#x4E00;&amp;#x6837;&amp;#x7684;
+2.height=device-height  //&amp;#x5E94;&amp;">
+  
+    <link rel="alternative" href="/atom.xml" title="前端技术交流" type="application/atom+xml">
+  
+  <meta name="summary" content="null">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="loading" class="active"></div>
+
+  <nav id="menu"  >
+   <div class="inner flex-row-vertical">
+  <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+      <i class="icon icon-lg icon-close"></i>
+  </a>
+  <div class="brand-wrap">
+    <div class="brand">
+      <a href="/" class="avatar"><img src="/img/logo.jpg"></a>
+      <hgroup class="introduce">
+        <h5 class="nickname">Hank</h5>
+        <a href="mailto:bluesky2718@126.com" title="bluesky2718@126.com" class="mail">bluesky2718@126.com</a>
+      </hgroup>
+    </div>
+  </div>
+  <ul class="nav flex-col">
+    
+        <li class="waves-block waves-effect">
+          <a href="/"  >
+            <i class="icon icon-lg icon-home"></i>
+            主页
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="/archives"  >
+            <i class="icon icon-lg icon-archives"></i>
+            归档
+          </a>
+        </li>
+    
+        <li class="waves-block waves-effect">
+          <a href="/tags"  >
+            <i class="icon icon-lg icon-tags"></i>
+            标签
+          </a>
+        </li>
+    
+  </ul>
+
+  <footer class="footer">
+  <p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align:middle;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a></p>
+  <p>前端技术交流 &copy; 2016</p>
+  <p>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme
+  <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></p>
+  <a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-2x icon-rss-square"></i></a>
+</footer>
+
+</div>
+
+  </nav>
+  <main id="main">
+    <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">&lt;mate name=”viewport”&gt;移动端设置详解</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input " autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-share">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header">
+  <div class="container">
+    <h1 class="author">&lt;mate name=”viewport”&gt;移动端设置详解</h1>
+    <h5 class="subtitle">
+        
+            <time datetime="2016-08-18T07:20:00.000Z" itemprop="datePublished" class="page-time">
+  2016-08-18
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/html5/">html5</a></li></ul>
+
+        
+    </h5>
+  </div>
+</header>
+
+    <div class="container body-wrap">
+      <article id="post-test" 
+  class="article article-type-post" itemprop="blogPost">
+    <div class="post-meta flex-row">
+        
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/移动端/">移动端</a></li></ul>
+
+    </div>
+    <div class="post-body">
+        <aside class="post-widget" id="post-widget">
+
+            
+            <div class="post-share" id="post-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+            
+
+            
+            <nav class="post-toc-wrap" id="post-toc">
+            
+            </nav>
+            
+        </aside>
+
+        <div class="post-main">
+
+            <div class="post-content" id="post-content" itemprop="postContent">
+            <meta name="&#x201D;viewport&#x201D;" content="&#x201D;width=device-width,height=device-height,initial-scale=1.0," minimum-scale="1.0," maximum-scale="1.0," user-scalable="no&#x201D;">
+
+<p>1.width=device-width    //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x5C4F;&#x5E55;&#x7684;&#x5BBD;&#x5EA6;&#x662F;&#x4E00;&#x6837;&#x7684;</p>
+<p>2.height=device-height  //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x9AD8;&#x5EA6;&#x548C;&#x5C4F;&#x5E55;&#x7684;&#x9AD8;&#x662F;&#x4E00;&#x6837;&#x7684;</p>
+<p>3.initial-scale=1.0  //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x542F;&#x52A8;&#x65F6;&#x5019;&#x7684;&#x7F29;&#x653E;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
+<p>4.minimum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x7F29;&#x653E;&#x5230;&#x7684;&#x6700;&#x5C0F;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
+<p>5.maximum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x653E;&#x5927;&#x5230;&#x7684;&#x6700;&#x5927;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
+<p>6.user-scalable=no  //&#x7528;&#x6237;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4ED6;&#x7684;&#x624B;&#x52BF;&#x6765;&#x7F29;&#x653E;&#x6574;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x5C3A;&#x5EA6;&#x53D1;&#x751F;&#x4E00;&#x4E2A;&#x6539;&#x53D8;&#xFF08;yes/no&#xFF09;</p>
+
+            <blockquote>
+                <p>
+                本文地址：
+                <a href="http://yoursite.com/2016/08/18/test/" target="_blank" rel="external">http://yoursite.com/2016/08/18/test/</a>
+                </p>
+                <footer><cite><a href="http://yoursite.com">@前端技术交流</a></cite></footer>
+            </blockquote>
+            </div>
+            
+<nav class="post-nav">
+  
+    <div class="waves-block waves-effect prev fl">
+      <a href="/2016/08/18/hexo博客主题更换为kael/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">hexo博客主题更换为kael</h4>
+      </a>
+    </div>
+  
+
+  
+</nav>
+
+
+            
+            
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="test" data-title="&lt;mate name=”viewport”&gt;移动端设置详解" data-url="http://yoursite.com/2016/08/18/test/index.html"></div>
+	<!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+        var duoshuoQuery = {short_name:"bluesky2718"};
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0]
+            || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+        </div>
+    </div>
+</article>
+    </div>
+  </main>
+<div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+<script>
+var BLOG_SHARE = {
+    title: "<mate name=”viewport”>移动端设置详解",
+    pic: "/img/logo.jpg",
+    summary: document.getElementsByName('summary')[0].content,
+    url: "http://yoursite.com/2016/08/18/test/index.html"
+};
+</script>
+<div class="global-share" id="global-share">
+    <div class="tit">分享到：</div>
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" href="javascript:;" data-title="微博" data-service="tsina">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns" href="javascript:;" data-title="微信" data-service="weixin">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" href="javascript:;" data-title=" QQ" data-service="cqq">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" href="javascript:;" data-title=" Facebook" data-service="fb">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" href="javascript:;" data-title=" Twitter" data-service="twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="douban share-sns" href="javascript:;" data-title="豆瓣" data-service="douban">
+          豆
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+<script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<script type="text/template" id="search-tpl">
+<li class="item">
+    <a href="/{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</script>
+
+<script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-19T02:43:17.000Z</updated>
+  <updated>2016-08-19T01:39:25.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,36 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>&lt;mate name=”viewport”&gt;移动端设置详解</title>
-    <link href="http://yoursite.com/2016/08/18/%3Cmate%20name=%E2%80%9Dviewport%E2%80%9D%3E%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%AE%BE%E7%BD%AE%E8%AF%A6%E8%A7%A3/"/>
-    <id>http://yoursite.com/2016/08/18/&lt;mate name=”viewport”&gt;移动端设置详解/</id>
-    <published>2016-08-18T07:20:00.000Z</published>
-    <updated>2016-08-19T02:43:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<meta name="&#x201D;viewport&#x201D;" content="&#x201D;width=device-width,height=device-height,initial-scale=1.0," minimum-scale="1.0," maximum-scale="1.0," user-scalable="no&#x201D;">
-
-<p>1.width=device-width    //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x5C4F;&#x5E55;&#x7684;&#x5BBD;&#x5EA6;&#x662F;&#x4E00;&#x6837;&#x7684;</p>
-<p>2.height=device-height  //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x9AD8;&#x5EA6;&#x548C;&#x5C4F;&#x5E55;&#x7684;&#x9AD8;&#x662F;&#x4E00;&#x6837;&#x7684;</p>
-<p>3.initial-scale=1.0  //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x542F;&#x52A8;&#x65F6;&#x5019;&#x7684;&#x7F29;&#x653E;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
-<p>4.minimum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x7F29;&#x653E;&#x5230;&#x7684;&#x6700;&#x5C0F;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
-<p>5.maximum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x653E;&#x5927;&#x5230;&#x7684;&#x6700;&#x5927;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
-<p>6.user-scalable=no  //&#x7528;&#x6237;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4ED6;&#x7684;&#x624B;&#x52BF;&#x6765;&#x7F29;&#x653E;&#x6574;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x5C3A;&#x5EA6;&#x53D1;&#x751F;&#x4E00;&#x4E2A;&#x6539;&#x53D8;&#xFF08;yes/no&#xFF09;</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;meta name=&quot;&amp;#x201D;viewport&amp;#x201D;&quot; content=&quot;&amp;#x201D;width=device-width,height=device-height,initial-scale=1.0,&quot; minimum-scale=&quot;1.0,&quot; maxi
-    
-    </summary>
-    
-      <category term="html5" scheme="http://yoursite.com/categories/html5/"/>
-    
-    
-      <category term="移动端" scheme="http://yoursite.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
-    
-  </entry>
   
   <entry>
     <title>hexo博客主题更换为kael</title>
@@ -69,6 +39,36 @@
     
     
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;mate name=”viewport”&gt;移动端设置详解</title>
+    <link href="http://yoursite.com/2016/08/18/test/"/>
+    <id>http://yoursite.com/2016/08/18/test/</id>
+    <published>2016-08-18T07:20:00.000Z</published>
+    <updated>2016-08-19T02:43:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<meta name="&#x201D;viewport&#x201D;" content="&#x201D;width=device-width,height=device-height,initial-scale=1.0," minimum-scale="1.0," maximum-scale="1.0," user-scalable="no&#x201D;">
+
+<p>1.width=device-width    //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x5C4F;&#x5E55;&#x7684;&#x5BBD;&#x5EA6;&#x662F;&#x4E00;&#x6837;&#x7684;</p>
+<p>2.height=device-height  //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x9AD8;&#x5EA6;&#x548C;&#x5C4F;&#x5E55;&#x7684;&#x9AD8;&#x662F;&#x4E00;&#x6837;&#x7684;</p>
+<p>3.initial-scale=1.0  //&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x542F;&#x52A8;&#x65F6;&#x5019;&#x7684;&#x7F29;&#x653E;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
+<p>4.minimum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x7F29;&#x653E;&#x5230;&#x7684;&#x6700;&#x5C0F;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
+<p>5.maximum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x653E;&#x5927;&#x5230;&#x7684;&#x6700;&#x5927;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
+<p>6.user-scalable=no  //&#x7528;&#x6237;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4ED6;&#x7684;&#x624B;&#x52BF;&#x6765;&#x7F29;&#x653E;&#x6574;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x5C3A;&#x5EA6;&#x53D1;&#x751F;&#x4E00;&#x4E2A;&#x6539;&#x53D8;&#xFF08;yes/no&#xFF09;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;meta name=&quot;&amp;#x201D;viewport&amp;#x201D;&quot; content=&quot;&amp;#x201D;width=device-width,height=device-height,initial-scale=1.0,&quot; minimum-scale=&quot;1.0,&quot; maxi
+    
+    </summary>
+    
+      <category term="html5" scheme="http://yoursite.com/categories/html5/"/>
+    
+    
+      <category term="移动端" scheme="http://yoursite.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
     
   </entry>
   
