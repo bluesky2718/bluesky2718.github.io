@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-19T02:41:30.000Z</updated>
+  <updated>2016-08-19T02:43:17.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/08/18/%3Cmate%20name=%E2%80%9Dviewport%E2%80%9D%3E%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%AE%BE%E7%BD%AE%E8%AF%A6%E8%A7%A3/"/>
     <id>http://yoursite.com/2016/08/18/&lt;mate name=”viewport”&gt;移动端设置详解/</id>
     <published>2016-08-18T07:20:00.000Z</published>
-    <updated>2016-08-19T02:41:30.000Z</updated>
+    <updated>2016-08-19T02:43:17.000Z</updated>
     
     <content type="html"><![CDATA[<meta name="&#x201D;viewport&#x201D;" content="&#x201D;width=device-width,height=device-height,initial-scale=1.0," minimum-scale="1.0," maximum-scale="1.0," user-scalable="no&#x201D;">
 
@@ -30,7 +30,6 @@
 <p>4.minimum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x7F29;&#x653E;&#x5230;&#x7684;&#x6700;&#x5C0F;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
 <p>5.maximum-scale=1.0  //&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x653E;&#x5927;&#x5230;&#x7684;&#x6700;&#x5927;&#x5C3A;&#x5EA6;&#xFF08;1.0&#x8868;&#x793A;&#x4E0D;&#x7F29;&#x653E;&#xFF09;</p>
 <p>6.user-scalable=no  //&#x7528;&#x6237;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4ED6;&#x7684;&#x624B;&#x52BF;&#x6765;&#x7F29;&#x653E;&#x6574;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x5C3A;&#x5EA6;&#x53D1;&#x751F;&#x4E00;&#x4E2A;&#x6539;&#x53D8;&#xFF08;yes/no&#xFF09;</p>
-<p><img src="/2016/08/18/&lt;mate name=&#x201D;viewport&#x201D;&gt;&#x79FB;&#x52A8;&#x7AEF;&#x8BBE;&#x7F6E;&#x8BE6;&#x89E3;/mate name=&#x201D;viewport&#x201D;&gt;&#x79FB;&#x52A8;&#x7AEF;&#x8BBE;&#x7F6E;&#x8BE6;&#x89E3;/logo.jpg" alt="logo"></p>
 ]]></content>
     
     <summary type="html">
