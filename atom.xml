@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-19T01:39:25.000Z</updated>
+  <updated>2016-08-19T03:16:01.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/08/18/hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2%E4%B8%BAkael/"/>
     <id>http://yoursite.com/2016/08/18/hexo博客主题更换为kael/</id>
     <published>2016-08-18T07:20:00.000Z</published>
-    <updated>2016-08-19T01:39:25.000Z</updated>
+    <updated>2016-08-19T03:16:01.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="&#x4E3A;&#x4EC0;&#x4E48;&#x66F4;&#x6539;&#x4E3B;&#x9898;"><a href="#&#x4E3A;&#x4EC0;&#x4E48;&#x66F4;&#x6539;&#x4E3B;&#x9898;" class="headerlink" title="#&#x4E3A;&#x4EC0;&#x4E48;&#x66F4;&#x6539;&#x4E3B;&#x9898;"></a>#&#x4E3A;&#x4EC0;&#x4E48;&#x66F4;&#x6539;&#x4E3B;&#x9898;</h1><p>&#x4E00;&#x662F;&#x786E;&#x5B9E;&#x4E0D;&#x592A;&#x559C;&#x6B22;&#x8FD9;&#x4E2A;&#x4E3B;&#x9898;<br>&#x8FD9;&#x4E2A;&#x4E3B;&#x9898;&#x7684;&#x8272;&#x8C03;&#x5728;&#x672C;&#x5730;&#x8FD8;&#x662F;&#x5F88;&#x4E0D;&#x9519;&#x7684;&#xFF0C;&#x6DF1;&#x84DD;&#x8272;&#xFF0C;&#x800C;&#x5230;&#x4E86;&#x8FDC;&#x7A0B;&#x5C31;&#x53D8;&#x6210;&#x4E86;&#x90A3;&#x79CD;&#x6DE1;&#x84DD;&#x8272;&#xFF0C;&#x56E0;&#x4E3A;&#x6211;&#x7684;&#x535A;&#x5BA2;&#x6258;&#x7BA1;&#x5728;github&#x4E0A;&#x9762;&#x561B;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x4E00;&#x6B65; hexo d&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x800C;&#x6211;&#x4E00;&#x76F4;&#x5F88;&#x6000;&#x7591;&#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#x53EA;&#x662F;&#x8D77;&#x5230;merge&#x7684;&#x4F5C;&#x7528;&#xFF0C;&#x6240;&#x4EE5;&#x5E76;&#x6CA1;&#x6709;&#x628A;&#x6211;&#x4E4B;&#x524D;&#x66F4;&#x6539;&#x7684;&#x4E3B;&#x9898;&#x8272;&#x8C03;&#x5728;&#x8FDC;&#x7A0B;&#x6539;&#x53D8;&#x3002;&#x603B;&#x4E4B;&#xFF0C;&#x8FD9;&#x4E00;&#x70B9;&#xFF0C;&#x8BA9;&#x6211;&#x5F88;&#x4E0D;&#x723D;&#x3002;</p>
 <h1 id="&#x4E8C;-&#x98CE;&#x683C;"><a href="#&#x4E8C;-&#x98CE;&#x683C;" class="headerlink" title="##&#x4E8C; &#x98CE;&#x683C;"></a>##&#x4E8C; &#x98CE;&#x683C;</h1><p>&#x6211;&#x603B;&#x89C9;&#x5F97;&#x4E4B;&#x524D;&#x90A3;&#x4E2A;jacman&#x7684;&#x4E3B;&#x9898;&#xFF0C;&#x98CE;&#x683C;&#x592A;&#x8FC7;&#x4E25;&#x8083;&#xFF0C;&#x66F4;&#x504F;&#x5411;&#x4E8E;&#x6280;&#x672F;&#x535A;&#x5BA2;&#x3002;&#x800C;&#x6211;&#x7684;&#x8FD9;&#x4E2A;&#x4E2A;&#x4EBA;&#x535A;&#x5BA2;&#xFF0C;&#x5230;&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#x6240;&#x8C13;&#x7684;&#x300C;&#x6280;&#x672F;&#x6587;&#x7AE0;&#x300D;&#x8FD8;&#x4E0D;&#x662F;&#x5F88;&#x591A;&#xFF0C;&#x6240;&#x4EE5;&#x4E3A;&#x4E86;&#x628A;&#x8FD9;&#x79CD;&#x53CD;&#x5DEE;&#x626D;&#x8FC7;&#x6765;&#xFF0C;&#x6211;&#x4E5F;&#x89C9;&#x5F97;&#x6709;&#x5FC5;&#x8981;&#x66F4;&#x6362;&#x4E3B;&#x9898;&#xFF0C;&#x4E4B;&#x524D;&#x5728;hexo themes list&#x4E0A;&#x9762;&#x6311;&#x8FC7;&#x5176;&#x4ED6;&#x7684;&#x4E3B;&#x9898;&#xFF0C;&#x5E76;&#x6CA1;&#x6709;&#x9009;&#x5230;&#x6211;&#x6EE1;&#x610F;&#x7684;&#xFF0C;&#x540E;&#x6765;&#x4E5F;&#x5C31;&#x4E0D;&#x4E86;&#x4E86;&#x4E4B;&#x4E86;&#x3002;</p>
